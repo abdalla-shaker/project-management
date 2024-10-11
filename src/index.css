@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: unset;
+}
+
+.line {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  height: 2px;
+  background-color: #292524;
+}
